@@ -1,0 +1,70 @@
+/** 
+class Cris extends Component{
+  render(){
+    let img = 'https://conteudo.imguol.com.br/c/esporte/8e/2021/09/11/depois-de-12-anos-cristiano-ronaldo-voltou-a-usar-a-camisa-do-manchester-united-1631369946867_v2_900x506.jpg.webp'
+    return(
+      <View>
+        <Image
+            source={{uri: img}}
+            style={{width:this.props.largura, height:this.props.altura}}
+        />
+        <Text>
+          Cristiano Ronaldo
+        </Text>
+      </View>
+
+    );
+  }
+
+
+  <Text style={{color:'blue'}}>Olá Mundo!!!!!!</Text>
+        <Text style={{color:'blue', margin:10}}>Meu primeiro App!</Text>
+       
+        <Text>Seja Bem vindo, {nome}</Text>
+        <Cris largura ={500} altura={200}/>
+
+        
+ <Text style={{fontSize:23, color: 'green', textAlign:'center'}}>{this.state.nome}</Text>
+
+        <Button title='Trocar' onPress={this.entrar}></Button>
+
+
+  constructor(props){
+    super(props);
+    this.state = {
+      nome : 'André Filipe'
+    };
+    this.entrar = this.entrar.bind(this);
+  }
+
+  entrar(){
+    this.setState({nome:'André Barreto'})
+  }
+
+
+  // estilos
+     <View style={styles.area}>
+        <Text>Eu sou texto 1</Text>
+        <Text>Eu sou texto 2</Text>
+        <Text style={styles.alinhaTexto}>Eu sou texto 3</Text>
+        <Text>Eu sou texto 4</Text>
+
+      </View>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  area: {
+    marginTop:60
+    
+  },
+  alinhaTexto: {
+    textAlign:'center'
+  }
+});
+export default App;
+
+
+
+
